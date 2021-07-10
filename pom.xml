@@ -14,6 +14,11 @@
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
+         
+ <distributionManagement>
+          <name>Internal Snapshot</name>
+          <url>http://13.232.27.21:8081/repository/hello_snapshot/</url>
+         </distributionManagement>
 
   <modules>
     <module>server</module>
@@ -205,12 +210,7 @@
     </dependencies>
   </dependencyManagement>
 
-  <scm>
-    <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
-    <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
-    <tag>HEAD</tag>
-    <url>http://github.com/jleetutorial/maven-project</url>
-  </scm>
+ 
 
   <prerequisites>
     <maven>3.0.3</maven>
