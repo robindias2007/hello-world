@@ -14,13 +14,6 @@
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
-         
- <distributionManagement>
-          <snapshotRepository>
-          <name>Internal Snapshot</name>
-          <url>http://13.232.27.21:8081/repository/hello_snapshot/</url>
-                   </snapshotRepository>
-         </distributionManagement>
 
   <modules>
     <module>server</module>
@@ -31,7 +24,7 @@
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
+      <url>http://13.232.27.21:8081/repository/hello_snapshot/</url>
     </site>
   </distributionManagement>
 
