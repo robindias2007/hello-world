@@ -16,8 +16,10 @@
   </properties>
          
  <distributionManagement>
+          <snapshotRepository>
           <name>Internal Snapshot</name>
           <url>http://13.232.27.21:8081/repository/hello_snapshot/</url>
+                   </snapshotRepository>
          </distributionManagement>
 
   <modules>
