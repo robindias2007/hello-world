@@ -1,0 +1,9 @@
+[dev]
+172.31.10.74 ansible_user=ec2-user
+
+[qa]
+172.31.4.179 ansible_user=ec2-user
+
+[all]
+172.31.10.74 ansible_user=ec2-user
+172.31.4.179 ansible_user=ec2-user
