@@ -22,7 +22,7 @@
     - name: Start the container
       docker_container:
         name: robinapp
-        image: "robindias2007/devops_project:{{DOCKER_TAG}}"
+        image: "robindias2007/devops_project"
         state: started
         restart: yes
         published_ports:
