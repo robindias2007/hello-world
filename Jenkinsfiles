@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage ('SCM') {
+            steps {
+                git credentialsId: 'git', url: 'https://github.com/robindias2007/hello-world.git'
+            }
+        }
+    }
+}
